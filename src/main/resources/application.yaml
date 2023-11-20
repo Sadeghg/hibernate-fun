@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: my-secret-pw
+    url: jdbc:mysql://localhost:6603/high
+  jpa:
+    hibernate:
+      ddl-auto: update
